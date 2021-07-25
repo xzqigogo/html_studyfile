@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="pycharm">
+    <meta name="Author" content="xiazeqi">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+
+    <title>exercise</title>
+</head>
+<body bgcolor="pink">
+
+    <!--锚点链接:连接至当前页面的指定位置-->
+    <a href="#5">5.人物经历</a>
+
+    <h1 align="center">HTML5&lt;Day01&gt;</h1>
+    <hr>
+    <h2>1 HTML文档片段</h2>
+    <h3>1.1 问题</h3>
+    <p>
+      创建如图-1所示的HTML页面
+    </p>
+
+    <h3>1.2 方案</h3>
+    <p>
+      使用HTML完成效果
+    </p>
+
+    <h3>
+      1.3 实现
+    </h3>
+    <p>
+      创建index.html，完成操作.............
+    </p>
+<!--容器标签,常用于页面文本划分-->
+    <div>导航栏</div>
+    <div>页面主体</div>
+    <div>页面底部</div>
+
+<!--结构列表,有序-->
+<ol type="i">
+    <li>list item1</li>
+    <li>list item2</li>
+</ol>
+
+<!--结构列表,无序-->
+<ul type="square">
+    <li>list item1</li>
+    <li>list item2</li>
+</ul>
+
+<!--使用无序列表展示四大名著，使用有序列表展示某一名著下四大人物-->
+
+<ul>
+    <!--兄弟关系-->
+    <li>西游记</li>
+    <ol>
+        <li>唐僧</li>
+        <li>沙和尚</li>
+        <li>孙悟空</li>
+        <li>猪八戒</li>
+    </ol>
+
+    <!--父子关系，网页的下拉菜单，只能使用父子关系进行嵌套-->
+    <li>
+        西游记
+        <ol>
+        <li>唐僧</li>
+        <li>沙和尚</li>
+        <li>孙悟空</li>
+        <li>猪八戒</li>
+    </ol>
+
+    </li>
+
+
+
+    <li>红楼梦</li>
+    <ol>
+        <li>贾宝玉</li>
+        <li>林黛玉</li>
+        <li>王夫人</li>
+        <li>薛宝钗</li>
+    </ol>
+    <li>水浒传</li>
+    <!--定义锚点,name属性设置锚点名称，自定义锚点链接中，地址使用#(锚点的标志),跟上锚点名称<a href="#5">5.人物经历</a>-->
+    <a name="5"></a>
+    <li>三国演义</li>
+</ul>
+</body>
+</html>
